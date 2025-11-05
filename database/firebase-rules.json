@@ -1,0 +1,22 @@
+{
+  "rules": {
+    "answers": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "quiz": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "result": {
+      "$uid": {
+        ".read": "$uid === auth.uid",
+        ".write": "$uid === auth.uid"
+      }
+    },
+    "videos": {
+      ".read": true,
+      ".write": false
+    }
+  }
+}

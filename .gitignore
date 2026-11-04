@@ -13,7 +13,6 @@
 
 # misc
 .DS_Store
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -23,11 +22,10 @@ yarn-debug.log*
 yarn-error.log*
 
 # Environment variables & secrets (added by GitHub Guardian)
-.env
-.env.*
 *.env
 !.env.example
 !.env.sample
 .envrc
 .venv/
 venv/
+config.bat

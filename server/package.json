@@ -12,7 +12,7 @@
   "main": "server.js",
   "name": "server",
   "scripts": {
-    "start": "node init && node server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
